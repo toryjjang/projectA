@@ -12,6 +12,7 @@
 		<context:include-filter type="annotation" expression="org.springframework.steretotype.Service"/>
 		<context:include-filter type="annotation" expression="org.springframework.steretotype.Repository"/>
 		<context:include-filter type="annotation" expression="org.springframework.steretotype.Controller"/>
+		<context:include-filter type="annotation" expression="org.springframework.steretotype.Component"/>
 	</context:component-scan>
 	<mvc:annotation-driven></mvc:annotation-driven>
 	
@@ -25,3 +26,4 @@
 	</bean>
 	
 </beans>
+
